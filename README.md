@@ -54,7 +54,7 @@ Expert guidance for idiomatic, functional Scala. Covers:
 ## Installation
 
 ```bash
-/plugin install https://github.com/drtey/scala-spark-plugin
+git clone https://github.com/drtey/scala-spark-plugin ~/.claude/plugins/scala-spark-plugin   
 ```
 
 ## Structure
