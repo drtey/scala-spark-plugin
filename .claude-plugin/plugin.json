@@ -1,0 +1,9 @@
+{
+  "name": "data-skills-plugin",
+  "version": "1.0.0",
+  "description": "Specialized skills for Scala and Apache Spark with Scala, focused on functional programming.",
+  "author": {
+    "name": "drtey"
+  },
+  "keywords": ["scala", "spark", "functional-programming", "data-engineering", "big-data"]
+}
