@@ -53,8 +53,37 @@ Expert guidance for idiomatic, functional Scala. Covers:
 
 ## Installation
 
+**1. Clone the repository into Claude Code's plugin directory:**
+
 ```bash
-git clone https://github.com/drtey/scala-spark-plugin ~/.claude/plugins/scala-spark-plugin   
+git clone https://github.com/drtey/scala-spark-plugin ~/.claude/plugins/cache/local/data-skills-plugin/1.0.0
+```
+
+**2. Register the plugin by adding this entry to `~/.claude/plugins/installed_plugins.json`** inside the `"plugins"` object:
+
+```json
+"data-skills-plugin@local": [
+  {
+    "scope": "user",
+    "installPath": "/home/<your-user>/.claude/plugins/cache/local/data-skills-plugin/1.0.0",
+    "version": "1.0.0",
+    "installedAt": "2026-01-01T00:00:00.000Z",
+    "lastUpdated": "2026-01-01T00:00:00.000Z"
+  }
+]
+```
+
+> Replace `<your-user>` with your actual username. On Linux/Mac the path is `~/.claude/...`.
+
+**3. Restart Claude Code.**
+
+### Verify installation
+
+Once installed, the skills are available as slash commands:
+
+```
+/spark-scala   → Apache Spark + Scala expert
+/scala         → Idiomatic Scala expert
 ```
 
 ## Structure
