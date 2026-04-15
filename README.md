@@ -5,6 +5,7 @@ Claude Code plugin with two expert skills for Scala and Apache Spark development
 ## Skills
 
 ### `spark-scala`
+
 Expert guidance for Apache Spark development in Scala. Covers:
 - SparkSession setup and configuration
 - DataFrame vs Dataset API (with type-safe case classes)
@@ -28,6 +29,7 @@ Expert guidance for Apache Spark development in Scala. Covers:
 - `references/spark-ml.md` — MLlib pipelines, transformers, estimators, evaluation
 
 ### `scala`
+
 Expert guidance for idiomatic, functional Scala. Covers:
 - Pure functions, immutability, referential transparency
 - Domain modeling: case classes, sealed trait ADTs, smart constructors
@@ -53,29 +55,29 @@ Expert guidance for idiomatic, functional Scala. Covers:
 
 ## Installation
 
-**1. Clone the repository into Claude Code's plugin directory:**
+1. **Clone the repository into Claude Code's plugin directory:**
 
-```bash
-git clone https://github.com/drtey/scala-spark-plugin ~/.claude/plugins/cache/local/data-skills-plugin/1.0.0
-```
+   ```bash
+   git clone https://github.com/drtey/scala-spark-plugin ~/.claude/plugins/cache/local/data-skills-plugin/1.0.0
+   ```
 
-**2. Register the plugin by adding this entry to `~/.claude/plugins/installed_plugins.json`** inside the `"plugins"` object:
+2. **Register the plugin by adding this entry to `~/.claude/plugins/installed_plugins.json`** inside the `"plugins"` object:
 
-```json
-"data-skills-plugin@local": [
-  {
-    "scope": "user",
-    "installPath": "/home/<your-user>/.claude/plugins/cache/local/data-skills-plugin/1.0.0",
-    "version": "1.0.0",
-    "installedAt": "2026-01-01T00:00:00.000Z",
-    "lastUpdated": "2026-01-01T00:00:00.000Z"
-  }
-]
-```
+   ```json
+   "data-skills-plugin@local": [
+     {
+       "scope": "user",
+       "installPath": "/home/<your-user>/.claude/plugins/cache/local/data-skills-plugin/1.0.0",
+       "version": "1.0.0",
+       "installedAt": "2026-01-01T00:00:00.000Z",
+       "lastUpdated": "2026-01-01T00:00:00.000Z"
+     }
+   ]
+   ```
 
-> Replace `<your-user>` with your actual username. On Linux/Mac the path is `~/.claude/...`.
+   > Replace `<your-user>` with your actual username. On Linux/Mac the path is `~/.claude/...`.
 
-**3. Restart Claude Code.**
+3. **Restart Claude Code.**
 
 ### Verify installation
 
