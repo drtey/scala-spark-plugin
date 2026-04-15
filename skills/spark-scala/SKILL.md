@@ -651,5 +651,6 @@ errorCounts.toDF("error_type", "count").show()
 - `references/data-sources.md` — Parquet, Delta Lake (MERGE/time-travel), JSON, CSV, JDBC, Kafka, Avro with all production options + UDFs + TDD patterns
 - `references/optimization.md` — AQE, Catalyst phases, Tungsten, Spark UI interpretation, OOM diagnosis, partition sizing, CBO, skew diagnosis, anti-patterns
 - `references/streaming-patterns.md` — Watermarks, trigger modes, type-safe streaming, stateful ops, stream-stream joins, event-time vs processing-time, progress metrics
+- `references/error-handling.md` — Dead letter pattern, idempotent writes, corrupt data handling, checkpoint recovery
 - `references/rdd-api.md` — Complete RDD API: transformations, pair RDD ops (combineByKey), accumulators (custom AccumulatorV2), broadcast variables, lineage checkpointing
 - `references/spark-ml.md` — MLlib Pipeline API: all feature transformers, all estimators, CrossValidator, ParamGridBuilder, 4-level TDD, common pitfalls

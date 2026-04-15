@@ -1203,6 +1203,8 @@ future
 - `references/fp-patterns.md` — Functor, Monad, Applicative, Kleisli, IO + Resource, Validated, State, monad laws, recursion patterns, function composition, hidden inputs diagnostic
 - `references/type-system.md` — Variance, type bounds, higher-kinded types, phantom types, opaque types (Scala 3), union/intersection types
 - `references/collections.md` — Collection hierarchy, performance table, groupMap/groupMapReduce, builder patterns, specialized collections
+- `references/domain-modeling.md` — Case classes, sealed trait ADTs, smart constructors, opaque types, refinement types
+- `references/concurrency-futures.md` — Futures, ExecutionContext, async patterns, Cats Effect IO
 - `references/testing.md` — Full TDD reference: F.I.R.S.T. principles, BUILD-OPERATE-CHECK, one assert per test, ScalaTest DSL, ScalaCheck generators, mocking, TestContainers, IO testing
 - `references/clean-architecture.md` — SOLID full Scala examples, component cohesion/coupling, Clean Architecture layers, screaming architecture, Humble Object, frameworks as details
 - `references/code-smells.md` — 40+ named smells (naming, function, comment, data, class, general, test) with Scala examples and fixes
