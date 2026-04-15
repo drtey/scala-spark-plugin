@@ -55,7 +55,7 @@ Expert guidance for idiomatic, functional Scala. Covers:
 
 ```bash
 # From Claude Code
-/plugin install <path-to-this-repo>
+/plugin install https://github.com/drtey/scala-spark-plugin
 
 # Or manually: copy to ~/.claude/plugins/cache/local/data-skills-plugin/1.0.0/
 # and add "data-skills-plugin@local": true to enabledPlugins in settings.json
